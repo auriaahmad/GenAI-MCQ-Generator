@@ -1,6 +1,6 @@
 import os
 import json
-# import traceback
+import traceback
 import PyPDF2
 import pandas as pd
 from dotenv import load_dotenv
@@ -58,7 +58,3 @@ review_chain=LLMChain(llm=llm, prompt=quiz_evaluation_prompt, output_key="review
 
 generate_evaluate_chain=SequentialChain(chains=[quiz_chain, review_chain], input_variables=["text", "number", "subject", "tone", "response_json"],
                                         output_variables=["quiz", "review"], verbose=True)
-
-# loading json file
-with open('D:\My Notes\genrative ai\3 end to end project\mcqgen\Response.json','r') as file:
-    RESPONSE_JSON = json.load(file)
