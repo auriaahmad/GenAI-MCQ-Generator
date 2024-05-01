@@ -1,5 +1,8 @@
 # MCQ Generator
 
+![MCQ Generator With Generative OpenAI>](preview.png)
+
+
 ## Description
 This project is a multiple-choice question (MCQ) generator leveraging OpenAI, Hugging Face, and LangChain technologies.
 
@@ -20,7 +23,7 @@ To set up a base environment in Git Bash, follow these steps:
 
 1. Open Git Bash.
 2. Enter the following command to initialize Conda in Bash:   
-    ```bash
+    ```bashv
    conda init bash
    ``` 
 

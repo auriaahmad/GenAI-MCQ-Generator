@@ -13,7 +13,7 @@ from src.mcqgenerator.logger import logging
 
 
 # loading json file
-with open('D:\My Notes\genrative ai\3 end to end project\mcqgen\Response.json', 'r') as file:
+with open(r'C:\Users\Auria\Desktop\mcqgen\GenAI-MCQ-Generator\Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 st.title("MCQs Creator application with langchain")
