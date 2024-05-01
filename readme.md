@@ -19,34 +19,27 @@ To install the Python extension in Visual Studio Code, follow these steps:
 To set up a base environment in Git Bash, follow these steps:
 
 1. Open Git Bash.
-2. Enter the following command to initialize Conda in Bash:
-   
-   ```bash
+2. Enter the following command to initialize Conda in Bash:   
+    ```bash
    conda init bash
    ``` 
 
-3. Enter the following in Bash:
-   
-   ```bash
-echo '. ${HOME}/.bash_profile' >> ~/.bashrc
-   ``` 
+3. Enter the following in Bash: 
+    ```bash 
+    echo '. ${HOME}/.bash_profile' >> ~/.bashrc 
+    ``` 
 
 4. Restart Git Bash
 
 5. Run the following command to create the environment:
-   
    ```bash
-conda create -p env python=3.8 -y
+   conda create -p env python=3.8 -y
    ``` 
 6. Activate the environment by running:
 
    ```bash
-source activate ./env
+   source activate ./env
    ``` 
-
-
-
-
 
 ## How to Run
 ### 1. Install Packages
@@ -82,4 +75,4 @@ Replace `<"PASTE YOUR OPENAI API KEY HERE">` with your actual OpenAI API key.
 Once you have installed the required packages and set up your environment variables, you can run the MCQ generator application.
 
 ## Additional Information
-This MCQ Generator is free to use and does has any warranty or support.
+This MCQ Generator is free to use and does not have any warranty or support. 
